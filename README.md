@@ -85,7 +85,7 @@ Enable the configuration:
 sudo ln -s /etc/nginx/sites-available/yourdomain.conf /etc/nginx/sites-enabled/
 ```
 
-### 7. Test Nginx Configuration
+### 6. Test Nginx Configuration
 
 <kbd>![image](img/cmd.png)</kbd>
 
@@ -100,9 +100,7 @@ sudo systemctl reload nginx
 sudo systemctl daemon-reload  # if server not run
 ```
 
-### 8. Verify Deployment
-
-<kbd>![image](img/conf.png)</kbd>
+### 7. Verify Deployment
 
 - Open a browser and navigate to `http://your-ec2-public-ip` or `http://yourdomain.com`.
 
